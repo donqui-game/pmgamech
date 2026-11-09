@@ -1,0 +1,143 @@
+[
+  {
+    "id": "street_help",
+    "title": "골목의 부탁",
+    "text": "골목에서 짐을 옮기던 주민이 도움을 요청한다. 사례는 적지만 위험은 낮아 보인다.",
+    "choices": [
+      {
+        "label": "도움을 준다",
+        "desc": "안 +35, 평판 +15",
+        "effects": {
+          "an": 35,
+          "rep": 15
+        }
+      },
+      {
+        "label": "사례를 먼저 요구한다",
+        "desc": "안 +60, 악명 +2",
+        "effects": {
+          "an": 60,
+          "infamy": 2
+        }
+      },
+      {
+        "label": "지나친다",
+        "desc": "아무 일도 일어나지 않는다",
+        "effects": {}
+      }
+    ]
+  },
+  {
+    "id": "strange_job",
+    "title": "수상한 전단",
+    "text": "벽에 붙은 전단에는 짧은 의뢰가 적혀 있다. 자세한 내용은 만나서 알려준다고 한다.",
+    "choices": [
+      {
+        "label": "연락한다",
+        "desc": "안 +20, 평판 +25, 생명력 -5",
+        "effects": {
+          "an": 20,
+          "rep": 25,
+          "hp": -5
+        }
+      },
+      {
+        "label": "전단을 찢는다",
+        "desc": "악명 -1",
+        "effects": {
+          "infamy": -1
+        }
+      },
+      {
+        "label": "기억해 둔다",
+        "desc": "연줄 +2",
+        "effects": {
+          "connections": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "quiet_day",
+    "title": "평온한 하루",
+    "text": "오늘은 드물게 아무런 사건도 일어나지 않았다. 잠시 숨을 돌릴 수 있다.",
+    "choices": [
+      {
+        "label": "휴식한다",
+        "desc": "생명력 +12",
+        "effects": {
+          "hp": 12
+        }
+      },
+      {
+        "label": "주변을 둘러본다",
+        "desc": "안 +15",
+        "effects": {
+          "an": 15
+        }
+      },
+      {
+        "label": "몸을 단련한다",
+        "desc": "힘 +1 또는 민첩 +1",
+        "effects": {
+          "strength": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "backstreet_trade",
+    "title": "뒷골목 거래",
+    "text": "낯선 상인이 작은 물건을 내밀었다. 출처를 묻자 웃으며 고개를 젓는다.",
+    "choices": [
+      {
+        "label": "거래한다",
+        "desc": "안 -25, 연줄 +5",
+        "effects": {
+          "an": -25,
+          "connections": 5
+        }
+      },
+      {
+        "label": "흥정한다",
+        "desc": "안 +10",
+        "effects": {
+          "an": 10
+        }
+      },
+      {
+        "label": "거절한다",
+        "desc": "아무 일도 없다",
+        "effects": {}
+      }
+    ]
+  },
+  {
+    "id": "training_offer",
+    "title": "임시 훈련 제안",
+    "text": "퇴역 해결사라고 소개한 사람이 기초 훈련을 제안했다.",
+    "choices": [
+      {
+        "label": "훈련을 받는다",
+        "desc": "안 -20, 체질 +1",
+        "effects": {
+          "an": -20,
+          "vitality": 1
+        }
+      },
+      {
+        "label": "대련한다",
+        "desc": "민첩 +1, 생명력 -5",
+        "effects": {
+          "agility": 1,
+          "hp": -5
+        }
+      },
+      {
+        "label": "거절한다",
+        "desc": "아무 일도 없다",
+        "effects": {}
+      }
+    ]
+  }
+]

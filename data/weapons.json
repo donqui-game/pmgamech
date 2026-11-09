@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fist",
+    "name": "맨손",
+    "price": 0,
+    "skills": [
+      "fist_punch",
+      "fist_kick",
+      "fist_evade"
+    ]
+  },
+  {
+    "id": "dagger",
+    "name": "단검",
+    "price": 120,
+    "skills": [
+      "dagger_thrust",
+      "dagger_combo",
+      "dagger_critical",
+      "dagger_dodge"
+    ]
+  },
+  {
+    "id": "sword",
+    "name": "장검",
+    "price": 260,
+    "skills": [
+      "sword_slash",
+      "sword_heavy",
+      "sword_ultimate",
+      "sword_guard"
+    ]
+  },
+  {
+    "id": "club",
+    "name": "둔기",
+    "price": 220,
+    "skills": [
+      "club_smash",
+      "club_crush",
+      "club_guard"
+    ]
+  }
+]

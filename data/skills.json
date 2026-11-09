@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dagger_thrust",
+    "name": "단검 찌르기",
+    "weapon": "단검",
+    "type": "attack",
+    "stars": 1,
+    "cost": 1,
+    "power": [
+      2,
+      4
+    ],
+    "effect": "안정적인 기본 공격"
+  },
+  {
+    "id": "dagger_combo",
+    "name": "단검 연속 베기",
+    "weapon": "단검",
+    "type": "attack",
+    "stars": 2,
+    "cost": 2,
+    "power": [
+      4,
+      8
+    ],
+    "effect": "두 번의 타격 판정"
+  },
+  {
+    "id": "dagger_critical",
+    "name": "단검 급소 일격",
+    "weapon": "단검",
+    "type": "attack",
+    "stars": 3,
+    "cost": 3,
+    "power": [
+      7,
+      13
+    ],
+    "effect": "높은 위력"
+  },
+  {
+    "id": "dagger_dodge",
+    "name": "몸 비틀기",
+    "weapon": "단검",
+    "type": "evade",
+    "stars": 0,
+    "cost": 0,
+    "power": [
+      3,
+      7
+    ],
+    "effect": "회피"
+  },
+  {
+    "id": "sword_slash",
+    "name": "장검 가로 베기",
+    "weapon": "장검",
+    "type": "attack",
+    "stars": 1,
+    "cost": 1,
+    "power": [
+      2,
+      4
+    ],
+    "effect": "안정적인 기본 공격"
+  },
+  {
+    "id": "sword_heavy",
+    "name": "장검 내려치기",
+    "weapon": "장검",
+    "type": "attack",
+    "stars": 2,
+    "cost": 2,
+    "power": [
+      4,
+      8
+    ],
+    "effect": "중간 위력"
+  },
+  {
+    "id": "sword_ultimate",
+    "name": "필살 참격",
+    "weapon": "장검",
+    "type": "attack",
+    "stars": 3,
+    "cost": 3,
+    "power": [
+      7,
+      13
+    ],
+    "effect": "높은 위력"
+  },
+  {
+    "id": "sword_guard",
+    "name": "장검 막기",
+    "weapon": "장검",
+    "type": "defend",
+    "stars": 0,
+    "cost": 0,
+    "power": [
+      3,
+      6
+    ],
+    "effect": "방어"
+  },
+  {
+    "id": "club_smash",
+    "name": "둔기 후려치기",
+    "weapon": "둔기",
+    "type": "attack",
+    "stars": 2,
+    "cost": 2,
+    "power": [
+      4,
+      8
+    ],
+    "effect": "중간 위력"
+  },
+  {
+    "id": "club_crush",
+    "name": "둔기 분쇄",
+    "weapon": "둔기",
+    "type": "attack",
+    "stars": 3,
+    "cost": 3,
+    "power": [
+      7,
+      13
+    ],
+    "effect": "높은 위력"
+  },
+  {
+    "id": "club_guard",
+    "name": "둔기 버티기",
+    "weapon": "둔기",
+    "type": "defend",
+    "stars": 0,
+    "cost": 0,
+    "power": [
+      3,
+      6
+    ],
+    "effect": "방어"
+  },
+  {
+    "id": "fist_punch",
+    "name": "맨손 주먹",
+    "weapon": "맨손",
+    "type": "attack",
+    "stars": 1,
+    "cost": 1,
+    "power": [
+      2,
+      4
+    ],
+    "effect": "기본 공격"
+  },
+  {
+    "id": "fist_kick",
+    "name": "맨손 발차기",
+    "weapon": "맨손",
+    "type": "attack",
+    "stars": 2,
+    "cost": 2,
+    "power": [
+      4,
+      8
+    ],
+    "effect": "중간 위력"
+  },
+  {
+    "id": "fist_evade",
+    "name": "맨손 회피",
+    "weapon": "맨손",
+    "type": "evade",
+    "stars": 0,
+    "cost": 0,
+    "power": [
+      3,
+      7
+    ],
+    "effect": "회피"
+  }
+]
